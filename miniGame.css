@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(234, 221, 221);
+}
+#welcome{
+    background-color: black;
+    color: white;
+   text-align: center;
+   margin: auto;
+   width: 620px;
+   border-radius:6px ;
+   padding: 6px;
+}
+
+.box{
+    display: flex;
+    margin: 10px;
+    /* width:250px; */
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid green; */
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:112px;
+    /* border: 2px solid red; */
+    border-radius:10px ;
+    margin: 5px;
+}
+.computer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:112px;
+    /* border: 2px solid red; */
+    border-radius:10px ;
+}
+#winner{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* border:2px solid green; */
+    margin: 32px;
+}
+#winnerscore{
+   font-size: 32px;
+   font-weight: bold;
+
+}
+#compscore{
+    font-size: 32px;
+    font-weight: bold; 
+}
+.box div{
+    margin: 2px;
+    cursor: pointer;
+    border: 2px solid black;
+    /* background-color: black; */
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+}
+.thing img{
+    width:42px;
+    height:42px;
+    /* background-color: yellow; */
+}
